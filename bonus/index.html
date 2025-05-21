@@ -16,6 +16,7 @@
                 <h1 class="fw-semibold">Bootstrap 5 responsive Grid</h1>
                 <span class="text-center text-secondary">Layout a griglia con diversi breakpoint (sm, md, lg)</span>
             </div>
+            <!-- start Prima riga -->
             <div class="row mt-3 mb-3">
                 <div class="col-sm-12 col-md-6 col-lg-4 bg-light p-3">
                     <h4 class="fw-bold">Colonna 1</h4>
@@ -28,55 +29,65 @@
                         odio nostrum ex, ut
                         maiores. Voluptate, nisi?</p>
                 </div>
-
-
             </div>
-            <div class="row mt-3 mb-3">
-                <div class="col-sm-6 col-md-4 col-lg-4 bg-primary p-3 text-white">
+            <!-- end Prima riga -->
+
+            <!-- start Seconda riga -->
+            <div class="row mt-3 mb-3 text-white">
+                <!-- centralizzato testo bianco all'interno di row -->
+                <div class="col-sm-6 col-md-4 col-lg-4 bg-primary p-3 ">
                     <h4 class="fw-bold">Colonna 1</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam iure excepturi deserunt
                         odio nostrum ex, ut
                         maiores. Voluptate, nisi?</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 bg-success p-3 text-white">
+                <div class="col-sm-6 col-md-4 col-lg-4 bg-success p-3 ">
                     <h4 class="fw-bold">Colonna 2</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam iure excepturi deserunt
                         odio nostrum ex, ut
                         maiores. Voluptate, nisi?</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 bg-danger text-white p-3">
+                <div class="col-sm-12 col-md-4 col-lg-4 bg-danger  p-3">
                     <h4 class="fw-bold">Colonna 3</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam iure excepturi deserunt
                         odio nostrum ex, ut
                         maiores. Voluptate, nisi?</p>
                 </div>
             </div>
-            <div class="row mt-3 mb-3">
-                <div class="col-sm-6 col-md-3 col-lg-3 bg-info text-white p-3">
+            <!-- end Seconda riga -->
+
+
+            <!-- start Terza riga -->
+            <!-- usiamo row-cols per dichirare quante colonne vogliamo in quel breakpoint e in automatico va a gestire la larghezza tra loro, 
+  invece mettendo il singolo col-sm ad ogni colonna controlliamo manualmentela larghezza della colonna -->
+
+            <div class="row  row-cols-sm-2 row-cols-md-4 row-cols-lg-4 mt-3 mb-3">
+                <div class="col bg-info text-white p-3">
                     <h4 class="fw-bold">Colonna 1</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam iure excepturi deserunt
                         odio nostrum ex, ut
                         maiores. Voluptate, nisi?</p>
                 </div>
-                <div class="col-sm-6 col-md-3 col-lg-3 bg-warning text-white p-3">
+                <div class="col bg-warning text-white p-3">
                     <h4 class="fw-bold">Colonna 2</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam iure excepturi deserunt
                         odio nostrum ex, ut
                         maiores. Voluptate, nisi?</p>
                 </div>
-                <div class="col-sm-6 col-md-3 col-lg-3 bg-black text-white p-3">
+                <div class="col bg-black text-white p-3">
                     <h4 class="fw-bold">Colonna 3</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam iure excepturi deserunt
                         odio nostrum ex, ut
                         maiores. Voluptate, nisi?</p>
                 </div>
-                <div class="col-sm-6 col-md-3 col-lg-3 bg-light p-3">
+                <div class="col bg-light p-3">
                     <h4 class="fw-bold">Colonna 4</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam iure excepturi deserunt
                         odio nostrum ex, ut
                         maiores. Voluptate, nisi?</p>
                 </div>
             </div>
+            <!-- end Terza riga -->
         </div>
     </main>
 
